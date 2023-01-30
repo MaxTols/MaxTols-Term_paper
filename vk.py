@@ -3,9 +3,9 @@ import requests
 
 class Vkontakte:
 
-    def __init__(self, token, id):
+    def __init__(self, token, ids):
         self.token = token
-        self.id = id
+        self.id = ids
 
     def upload_disk(self):
         url = 'https://api.vk.com/method/photos.get'
